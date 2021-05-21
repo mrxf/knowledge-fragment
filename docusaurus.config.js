@@ -2,7 +2,7 @@
 module.exports = {
   title: '知识碎片',
   tagline: '记录技术学习内容',
-  url: 'fragments.thisjs.com',
+  url: 'study.thisjs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
