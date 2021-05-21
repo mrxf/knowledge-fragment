@@ -2,6 +2,7 @@
 module.exports = {
   title: '知识碎片',
   tagline: '记录技术学习内容',
+  url: 'localhost',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
