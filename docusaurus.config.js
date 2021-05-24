@@ -39,7 +39,7 @@ module.exports = {
           items: [
             {
               label: 'Tutorial',
-              to: '/start-react-dashboard/basic/npmrc',
+              to: '/docs/start-react-dashboard/intro',
             },
           ],
         },
