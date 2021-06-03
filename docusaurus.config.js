@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '知识碎片',
+  title: '知识积累',
   tagline: '记录技术学习内容',
-  url: 'https://knowledge-fragment.vercel.app',
+  url: 'https://study.thisjs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,7 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: '知识碎片',
+      title: '知识积累',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
