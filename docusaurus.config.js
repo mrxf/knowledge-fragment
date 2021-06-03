@@ -10,6 +10,11 @@ module.exports = {
   organizationName: 'mrxf', // Usually your GitHub org/user name.
   projectName: 'knowledge-fragment', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: '知识碎片',
       logo: {
@@ -44,37 +49,29 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: '与我相关',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '技术博客',
+              to: 'https://www.thisjs.com/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/mrxf/',
             },
           ],
         },
         {
-          title: 'More',
+          title: '友情链接',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 知识积累, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -83,15 +80,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/mrxf/knowledge-fragment/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/mrxf/knowledge-fragment/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
