@@ -59,4 +59,17 @@ module.exports = {
       ],
     },
   ],
+  leetCode: [
+    {
+      type: "doc",
+      id: "leetcode/intro",
+    },
+    {
+      type: "category",
+      label: "数组",
+      items: [
+        "leetcode/array/two-sum",
+      ],
+    },
+  ]
 };

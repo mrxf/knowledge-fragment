@@ -28,6 +28,12 @@ module.exports = {
           position: 'left',
           label: '中后台系统搭建',
         },
+        {
+          type: 'doc',
+          docId: 'leetcode/intro',
+          position: 'left',
+          label: 'LeetCode笔记',
+        },
         {to: '/blog', label: '日志', position: 'right'},
         {
           href: 'https://github.com/mrxf',
