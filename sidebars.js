@@ -66,9 +66,10 @@ module.exports = {
     },
     {
       type: "category",
-      label: "数组",
+      label: "简单",
       items: [
         "leetcode/array/two-sum",
+        "leetcode/math/palindrome",
       ],
     },
   ]
