@@ -34,6 +34,12 @@ module.exports = {
           position: 'left',
           label: 'LeetCode笔记',
         },
+        {
+          type: 'doc',
+          docId: 'javascript-tips/intro',
+          position: 'left',
+          label: 'JavaScript开发小札',
+        },
         {to: '/blog', label: '日志', position: 'right'},
         {
           href: 'https://github.com/mrxf',

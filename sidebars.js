@@ -53,10 +53,7 @@ module.exports = {
     {
       type: "category",
       label: "杂项",
-      items: [
-        "start-react-dashboard/others/echarts",
-        "start-react-dashboard/others/ssr",
-      ],
+      items: ["start-react-dashboard/others/echarts", "start-react-dashboard/others/ssr"],
     },
   ],
   leetCode: [
@@ -67,10 +64,26 @@ module.exports = {
     {
       type: "category",
       label: "简单",
+      items: ["leetcode/array/two-sum", "leetcode/math/palindrome"],
+    },
+  ],
+  javascipt: [
+    {
+      type: "doc",
+      id: "javascript-tips/intro",
+    },
+    {
+      type: "category",
+      label: "📖 基础",
+      items: [],
+    },
+    {
+      type: "category",
+      label: "🔗 typescript",
       items: [
-        "leetcode/array/two-sum",
-        "leetcode/math/palindrome",
+        "javascript-tips/typescript/use-reducer-with-ts",
+        "javascript-tips/typescript/ts-type-convert-tips",
       ],
     },
-  ]
+  ],
 };
