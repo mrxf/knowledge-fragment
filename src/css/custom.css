@@ -15,7 +15,6 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --ifm-font-size-base: 85%;
 }
 
 .docusaurus-highlight-code-line {
@@ -58,8 +57,3 @@ blockquote {
   border-width: 4px;
 }
 
-@media only screen and (min-width: 997px) {
-  .docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- {
-    min-width: 100% !important;
-  }
-}
