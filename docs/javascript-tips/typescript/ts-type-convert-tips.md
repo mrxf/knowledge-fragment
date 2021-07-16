@@ -1,4 +1,4 @@
-# typescript 类型转换使用笔记
+# typescript 类型转换小记
 
 ## 使用联合类型作为对象的key
 
