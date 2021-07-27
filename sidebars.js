@@ -75,7 +75,9 @@ module.exports = {
     {
       type: "category",
       label: "📖 基础",
-      items: [],
+      items: [
+        "javascript-tips/basic/repeat"
+      ],
     },
     {
       type: "category",
