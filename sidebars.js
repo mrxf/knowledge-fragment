@@ -83,6 +83,7 @@ module.exports = {
       type: "category",
       label: "🔗 typescript",
       items: [
+        "javascript-tips/typescript/typescript-in-react",
         "javascript-tips/typescript/use-reducer-with-ts",
         "javascript-tips/typescript/ts-type-convert-tips",
         "javascript-tips/typescript/unstated-next-witdh-use-toggle",
