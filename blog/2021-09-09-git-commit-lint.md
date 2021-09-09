@@ -156,7 +156,7 @@ vim ~/.gitmessage
 #
 ```
 
-修改全局git配置信息，添加模板地址
+修改全局git配置信息，添加模板地址：
 
 ```shell
 vim ~/.gitconfig
