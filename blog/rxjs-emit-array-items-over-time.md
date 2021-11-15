@@ -27,6 +27,8 @@ from(array)
  .subscribe(console.log);
 ```
 
+<!--truncate-->
+
 ## 2. 使用 `zip` 和 `interval`组合
 
 ```js
