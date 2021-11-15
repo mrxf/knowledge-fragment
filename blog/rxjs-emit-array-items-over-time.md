@@ -1,6 +1,6 @@
 ---
 slug: rxjs-emit-array-items-over-time
-title: [译]如何在rxjs中随时间吐出数组元素
+title: "[译]如何在rxjs中随时间吐出数组元素"
 author: 张树源
 author_title: 前端工程师
 author_url: https://github.com/mrxf
